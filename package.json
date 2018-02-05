@@ -1,0 +1,16 @@
+{
+  "name": "csa",
+  "version": "1.0.0",
+  "description": "Crypto Supported Agriculture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ethereum",
+    "blockchain",
+    "agriculture"
+  ],
+  "author": "Fodé Diop",
+  "license": "MIT"
+}
