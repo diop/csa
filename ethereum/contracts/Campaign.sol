@@ -54,7 +54,7 @@ contract Campaign {
             complete: false,
             approvalCount: 0
         });
-        
+
         requests.push(newRequest);
     }
 
