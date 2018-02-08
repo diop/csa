@@ -6,7 +6,7 @@ const compiledCampaign = require('../ethereum/build/Campaign.json')
 
 let accounts
 let factory
-let campaignAddres
+let campaignAddress
 let campaign
 
 beforeEach(async () => {

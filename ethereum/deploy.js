@@ -8,15 +8,10 @@ const rinkeby = process.env.PROVIDER_URL
 
 const provider = new HDWalletProvider(mnemonic, rinkeby)
 
-console.log(mnemonic)
-console.log(rinkeby)
-
 const web3 = new Web3(provider)
 
 const deploy = async () => {
   const accounts = await web3.eth.getAccounts()
-
-
 
   console.log('Attempting to deploy from account: ', accounts[0])
 
