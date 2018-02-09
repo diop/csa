@@ -1,5 +1,5 @@
-require('dotenv').config()
-
+require('dotenv').config({path: __dirname + '/../.env'})
+console.log( __dirname + '../.env');
 const HDWalletProvider = require('truffle-hdwallet-provider')
 const Web3 = require('web3')
 const compiledFactory = require('./build/Factory.json')
