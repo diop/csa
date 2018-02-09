@@ -5,7 +5,7 @@ export default () => {
   return (
     <Menu style={{ marginTop: '10px'}}>
       <Menu.Item>
-        Crypto Supported Ag
+        Crypto Supported Agriculture
       </Menu.Item>
       <Menu.Menu position="right">
         <Menu.Item> Campaigns </Menu.Item>
