@@ -6,7 +6,7 @@ class CampaignShow extends Component {
   static async getInitialProps(props) {
     const campaign = Campaign(props.query.address)
 
-    const summary = await campaing.methods.getSummary().call()
+    const summary = await campaign.methods.getSummary().call()
 
     console.log(summary)
 
